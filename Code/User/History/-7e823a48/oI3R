@@ -1,0 +1,267 @@
+[
+  {
+    "layer": "top", // Waybar at top layer
+    "output": "eDP-1", // Output name
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 40,
+    // "width":1920,
+    "margin": "5 5 0 5",
+    "spacing": 0,
+    // Choose the order of the modules
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-center": ["mpris"],
+    "modules-right": [
+      "custom/network_traffic",
+      "custom/updates",
+      "battery",
+      "pulseaudio",
+      "network",
+      "tray",
+      "clock",
+      "custom/power"
+    ],
+    // Modules configuration
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "on-click": "activate",
+      "all-outputs": false,
+      "sort-by-number": true,
+      "format-icons": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10",
+        "focused": "",
+        "default": ""
+      },
+      "on-scroll-down": "hyprctl dispatch workspace e-1"
+    },
+    "hyprland/window": {
+      "format": "{}",
+      "icon": true,
+      "icon-size": 16,
+      "separate-outputs": true,
+      "rewrite": {
+        "(.*) — FireDragon": "FireDragon"
+      }
+    },
+    "tray": {
+      "icon-size": 20,
+      "spacing": 5
+    },
+    "clock": {
+      "tooltip-format": "<big>{:%A, %d.%B %Y }</big>\n<tt><small>{calendar}</small></tt>",
+      "format": " {:%I:%M %p}", //12 hour format
+      //"format": " {:%a %d %b  %H:%M}",	//24 hour format
+      "format-alt": " {:%H:%M:%S}",
+      //"max-length": 200
+      "interval": 1,
+      "on-click-middle": "~/.config/waybar/scripts/OCV"
+    },
+    "battery": {
+      // "states": {
+      //     "good": 95,
+      //     "warning": 30,
+      //     "critical": 15
+      // },
+      "format": "{icon} {capacity: >3}%",
+      "format-icons": ["", "", "", "", ""],
+      "format-charging": "󰂄 {capacity: >3}%",
+      "tooltip": true,
+      "tooltip-format": "Battery: {capacity}%\n{timeTo}"
+      // "format-good": "", // An empty format will hide the module
+      // "format-full": "",
+      //"format-icons": ["", "", "", "", "", "", "", "", "", ""]
+      //"format": "&#x202b;{icon}&#x202c; {capacity}%",
+      //"format-icons": ["ﱉ","ﱊ","ﱌ","ﱍ","ﱋ"]
+    },
+    "network": {
+      //"interface": "wlp0s20f3", // (Optional) To force the use of this interface  "format-wifi": "  {essid}",
+      "format": "⚠Disabled",
+      "format-wifi": "",
+      "format-ethernet": "",
+      "format-linked": "{ifname} (No IP)",
+      "format-disconnected": "⚠Disabled",
+      "format-alt": "{ifname}: {ipaddr}/{cidr}",
+      "family": "ipv4",
+      "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
+      "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
+      //"min-length": 2,
+      //"max-length": 2,
+      "on-click-middle": "nm-connection-editor"
+    },
+    "custom/updates": {
+      "format": "{} {icon}",
+      "return-type": "json",
+      "format-icons": {
+        "has-updates": "󱍷",
+        "updated": "󰂪",
+        "interval": 7200
+      },
+      "exec-if": "which waybar-module-pacman-updates",
+      "exec": "waybar-module-pacman-updates",
+      "on-click": "foot -e update"
+    },
+    "custom/power": {
+      "format": "⏻",
+      "on-click": "nwgbar",
+      "tooltip": false
+    },
+    "custom/network_traffic": {
+      "exec": "~/.config/waybar/scripts/network_traffic.sh",
+      "return-type": "json",
+      "format-ethernet": "{icon} {ifname} ⇣{bandwidthDownBytes} ⇡{bandwidthUpBytes}" // optional
+    },
+    "pulseaudio": {
+      "scroll-step": 3, // %, can be a float
+      "format": "{icon} {volume}% ",
+      "format-bluetooth": "{volume}% {icon}",
+      //"format-source": "{volume}% ",
+      //"format-source-muted": "",
+      "format-icons": {
+        "headphone": "",
+        "hands-free": "",
+        "headset": "",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": ["", "", ""]
+      },
+      "on-click-middle": "pavucontrol",
+      "on-click-right": "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
+    },
+    "mpris": {
+      "format": "{player_icon} {dynamic}",
+      "format-paused": "{status_icon} <i>{dynamic}</i>",
+      "player-icons": {
+        "default": " ",
+        "spotify": " "
+      },
+      "ignored-players": ["firefox"],
+      "status-icons": {
+        "paused": "󰏤 "
+      },
+      "dynamic-order": ["title", "artist"],
+      "dynamic-importance-order": ["title", "artist"],
+      "dynamic-len": 30,
+      "dynamic-separator": " - ",
+      "interval": 1
+    }
+  },
+  {
+    "layer": "top", // Waybar at top layer
+    "output": "HDMI-A-1", // Output name
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 30,
+    // "width":1920,
+    "margin": "0 5 0 5",
+    "spacing": 0,
+    // Choose the order of the modules
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-center": ["mpris"],
+    "modules-right": ["battery", "pulseaudio", "clock", "custom/power"],
+    // Modules configuration
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "on-click": "activate",
+      "all-outputs": false,
+      "sort-by-number": true,
+      "format-icons": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10",
+        "focused": "",
+        "default": ""
+      },
+      "on-scroll-down": "hyprctl dispatch workspace e-1"
+    },
+    "hyprland/window": {
+      "format": "{}",
+      "icon": true,
+      "icon-size": 16,
+      "separate-outputs": true,
+      "rewrite": {
+        "(.*) — FireDragon": "FireDragon"
+      }
+    },
+    "clock": {
+      "tooltip-format": "<big>{:%A, %d.%B %Y }</big>\n<tt><small>{calendar}</small></tt>",
+      "format": " {:%I:%M %p}", //12 hour format
+      //"format": " {:%a %d %b  %H:%M}",	//24 hour format
+      "format-alt": " {:%H:%M:%S}",
+      //"max-length": 200
+      "interval": 1,
+      "on-click-middle": "~/.config/waybar/scripts/OCV"
+    },
+    "battery": {
+      // "states": {
+      //     "good": 95,
+      //     "warning": 30,
+      //     "critical": 15
+      // },
+      "format": "{icon} {capacity: >3}%",
+      "format-icons": ["", "", "", "", ""],
+      "format-charging": "󰂄 {capacity: >3}%",
+      "tooltip": true,
+      "tooltip-format": "Battery: {capacity}%\n{timeTo}"
+      // "format-good": "", // An empty format will hide the module
+      // "format-full": "",
+      //"format-icons": ["", "", "", "", "", "", "", "", "", ""]
+      //"format": "&#x202b;{icon}&#x202c; {capacity}%",
+      //"format-icons": ["ﱉ","ﱊ","ﱌ","ﱍ","ﱋ"]
+    },
+    "custom/power": {
+      "format": "⏻",
+      "on-click": "nwg-bar",
+      "tooltip": false
+    },
+    "pulseaudio": {
+      "scroll-step": 3, // %, can be a float
+      "format": "{icon} {volume}% ",
+      "format-bluetooth": "{volume}% {icon}",
+      //"format-source": "{volume}% ",
+      //"format-source-muted": "",
+      "format-icons": {
+        "headphone": "",
+        "hands-free": "",
+        "headset": "",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": ["", "", ""]
+      },
+      "on-click-middle": "pavucontrol",
+      "on-click-right": "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
+    },
+    "mpris": {
+      "format": "{player_icon} {dynamic}",
+      "format-paused": "{status_icon} <i>{dynamic}</i>",
+      "player-icons": {
+        "default": " ",
+        "spotify": " "
+      },
+      "ignored-players": ["firefox"],
+      "status-icons": {
+        "paused": "󰏤 "
+      },
+      "dynamic-order": ["title", "artist"],
+      "dynamic-importance-order": ["title", "artist"],
+      "dynamic-len": 30,
+      "dynamic-separator": " - ",
+      "interval": 1
+    }
+  }
+]

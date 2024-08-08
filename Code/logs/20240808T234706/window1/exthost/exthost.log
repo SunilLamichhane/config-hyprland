@@ -1,0 +1,273 @@
+2024-08-08 23:47:07.657 [info] Extension host with pid 2021 started
+2024-08-08 23:47:07.657 [info] Skipping acquiring lock for /home/linus/.config/Code/User/workspaceStorage/bcb78f1e1e949e7357d3c8721c793938.
+2024-08-08 23:47:07.761 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-08 23:47:07.766 [info] ExtensionService#_doActivateExtension fireblast.hyprlang-vscode, startup: false, activationEvent: 'onLanguage:hyprlang'
+2024-08-08 23:47:07.856 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-08 23:47:07.858 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2024-08-08 23:47:07.872 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-08 23:47:07.888 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-08 23:47:07.937 [info] Eager extensions activated
+2024-08-08 23:47:07.972 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-08 23:47:07.973 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-08 23:51:00.802 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-08-08 23:51:59.140 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:51:59.176 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:52:00.150 [error] Error: No such branch: master.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:52:00.180 [error] Error: No such branch: master.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:52:01.328 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:52:02.331 [error] Error: No such branch: master.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:52:06.351 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:52:07.353 [error] Error: No such branch: master.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:52:08.441 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:52:09.443 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:52:11.371 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:52:12.373 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:52:16.391 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:52:17.393 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:52:21.409 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:52:22.411 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:52:26.429 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:52:27.431 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:52:31.447 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:52:32.449 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:53:21.252 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:53:22.254 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:53:26.273 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:53:27.275 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:53:31.292 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:53:32.294 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:53:36.313 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:53:37.316 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:53:41.335 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:53:42.337 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:53:46.355 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:53:47.357 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:53:51.374 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:53:52.377 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:53:56.394 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:53:57.396 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:54:01.414 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:54:02.416 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:54:06.434 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:54:07.436 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:54:11.456 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:54:12.458 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:54:16.474 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:54:17.476 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:54:21.491 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:54:22.493 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:54:26.513 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:54:27.515 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:54:31.537 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:54:32.539 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:54:36.557 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:54:37.560 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:54:41.579 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:54:42.581 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:54:46.603 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:54:47.605 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:54:51.627 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1240
+2024-08-08 23:54:52.630 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)

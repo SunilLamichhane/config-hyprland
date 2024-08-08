@@ -1,0 +1,12 @@
+2024-08-08 22:02:04.477 [info] Extension host with pid 1592 started
+2024-08-08 22:02:04.478 [info] Skipping acquiring lock for /home/linus/.config/Code/User/workspaceStorage/bcb78f1e1e949e7357d3c8721c793938.
+2024-08-08 22:02:04.661 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-08 22:02:04.667 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-08-08 22:02:04.957 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-08 22:02:04.959 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2024-08-08 22:02:04.996 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-08 22:02:05.020 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-08 22:02:05.064 [info] Eager extensions activated
+2024-08-08 22:02:05.098 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-08 22:02:05.101 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-08 22:02:21.899 [info] ExtensionService#_doActivateExtension fireblast.hyprlang-vscode, startup: false, activationEvent: 'onLanguage:hyprlang'

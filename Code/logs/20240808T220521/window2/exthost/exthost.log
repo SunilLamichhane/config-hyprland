@@ -1,0 +1,10 @@
+2024-08-08 22:05:23.026 [info] Extension host with pid 2941 started
+2024-08-08 22:05:23.026 [info] Skipping acquiring lock for /home/linus/.config/Code/User/workspaceStorage/159d1e41cab0ffc0fe655b04d9c11912.
+2024-08-08 22:05:23.156 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-08 22:05:23.194 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-08 22:05:23.196 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2024-08-08 22:05:23.211 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-08 22:05:23.236 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-08 22:05:23.287 [info] Eager extensions activated
+2024-08-08 22:05:23.307 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-08 22:05:23.308 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

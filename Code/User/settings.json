@@ -1,0 +1,4 @@
+{
+    "haskell.manageHLS": "GHCup",
+    "editor.mouseWheelZoom": true
+}

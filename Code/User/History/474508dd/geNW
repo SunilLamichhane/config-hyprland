@@ -1,0 +1,106 @@
+EndeavourOS i3wm Keybindings cheat sheet:
+
+--> to update this run the following command:
+wget --backups=1 https://raw.githubusercontent.com/endeavouros-team/endeavouros-i3wm-setup/main/.config/i3/keybindings -P ~/.config/i3/
+
+All sources and updates are available at GitHub:
+https://github.com/endeavouros-team/endeavouros-i3wm-setup
+
+For reference consult our WIKI:
+https://discovery.endeavouros.com/window-tiling-managers/i3-wm/
+
+mod = windows key
+
+# start xfce4-terminal
+mod+Return 
+
+# kill focused window
+mod+q
+
+# Application menu search by typing (fancy Rofi menu):
+mod+d
+
+# Window switcher menu (fancy Rofi menu):
+mod+t
+
+# fancy exit-menu on bottom right:
+mod+Shift+e
+
+# Lock the system
+# lock with a picture or blurring the screen (options in config)
+mod+l
+
+# reload the configuration file
+mod+Shift+c
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+mod+Shift+r
+
+# keybinding in fancy rofi (automated)
+F1
+
+# full keybinding list in editor:
+mod+F1
+
+# change window focus
+mod+j focus left
+mod+k focus down
+mod+b focus up
+mod+o focus right
+
+# alternatively, you can use the cursor keys:
+mod+Left focus left
+mod+Down focus down
+mod+Up focus up
+mod+Right focus right
+
+# move a focused window
+mod+Shift+j move left
+mod+Shift+k move down
+mod+Shift+b move up
+mod+Shift+o move right
+
+# alternatively, you can use the cursor keys:
+mod+Shift+Left move left
+mod+Shift+Down move down
+mod+Shift+Up move up
+mod+Shift+Right move right
+
+# split in horizontal orientation
+mod+h split h
+
+# split in vertical orientation
+mod+v split v
+
+# enter fullscreen mode for the focused container
+mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+mod+s layout stacking
+mod+g layout tabbed
+mod+e layout toggle split
+
+# toggle tiling / floating
+mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+mod+space focus mode_toggle
+
+# focus the parent container
+mod+a focus parent
+
+# focus the child container
+#mod+d focus child
+
+# resize floating window
+mod+right mouse button
+
+## Multimedia Keys
+
+# Redirect sound to headphones
+mod+p
+
+## App shortcuts
+mod+w starts Firefox
+mod+n starts Thunar
+ Button screenshot
