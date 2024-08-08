@@ -271,3 +271,17 @@
 	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
 	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
 	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:54:54.075 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1241
+2024-08-08 23:54:55.077 [error] Error: No such branch: main.
+	at N.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-08-08 23:54:56.347 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1241
+2024-08-08 23:55:01.048 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-08-08 23:55:22.815 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-08 23:55:22.821 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-08 23:55:22.833 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
